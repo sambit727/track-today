@@ -1,7 +1,7 @@
 # track-today
 This is a simple diary app - click on the calendar dates to store diary entries. Entries will be stored in a local database on your hard drive, others will not be able to see it. App is still in testing stage, do not rely on it.
 
-INSTRUCTIONS
+*INSTRUCTIONS*
 1. Download and unzip the folder
 2. Open 'Diary App' folder
 3. Run TrackToday.exe (should be a shortcut)
