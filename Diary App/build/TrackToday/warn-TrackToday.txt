@@ -1,0 +1,85 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running you program. Python and
+Python 3rd-party packages include a lot of conditional or optional modules. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported from within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+           yourself tracking down the missing module. Thanks!
+
+missing module named _posixsubprocess - imported by subprocess (optional), multiprocessing.util (delayed)
+missing module named 'org.python' - imported by copy (optional), xml.sax (delayed, conditional)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), zipimport (top-level)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), zipimport (top-level), PyInstaller.loader.pyimod02_archive (delayed)
+missing module named urllib.pathname2url - imported by urllib (conditional), PyInstaller.lib.modulegraph._compat (conditional)
+missing module named urllib.unquote_plus - imported by urllib (conditional), sqlalchemy.util.compat (conditional)
+missing module named urllib.unquote - imported by urllib (conditional), sqlalchemy.util.compat (conditional)
+missing module named urllib.quote_plus - imported by urllib (conditional), sqlalchemy.util.compat (conditional)
+missing module named urllib.quote - imported by urllib (conditional), sqlalchemy.util.compat (conditional)
+missing module named _posixshmem - imported by multiprocessing.resource_tracker (conditional), multiprocessing.shared_memory (conditional)
+missing module named multiprocessing.set_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named multiprocessing.get_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named multiprocessing.get_context - imported by multiprocessing (top-level), multiprocessing.pool (top-level), multiprocessing.managers (top-level), multiprocessing.sharedctypes (top-level)
+missing module named multiprocessing.TimeoutError - imported by multiprocessing (top-level), multiprocessing.pool (top-level)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named termios - imported by tty (top-level), getpass (optional)
+missing module named 'java.lang' - imported by platform (delayed, optional), xml.sax._exceptions (conditional)
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named asyncio.DefaultEventLoopPolicy - imported by asyncio (delayed, conditional), asyncio.events (delayed, conditional)
+missing module named vms_lib - imported by platform (delayed, conditional, optional)
+missing module named java - imported by platform (delayed)
+missing module named _winreg - imported by platform (delayed, optional), pkg_resources._vendor.appdirs (delayed, conditional)
+missing module named readline - imported by cmd (delayed, conditional, optional), code (delayed, conditional, optional), pdb (delayed, optional)
+missing module named org - imported by pickle (optional)
+missing module named grp - imported by shutil (optional), tarfile (optional), pathlib (delayed)
+missing module named pwd - imported by posixpath (delayed, conditional), shutil (optional), tarfile (optional), pathlib (delayed, conditional, optional), http.server (delayed, optional), webbrowser (delayed), netrc (delayed, conditional), getpass (delayed), distutils.util (delayed, conditional, optional)
+missing module named posix - imported by os (conditional, optional), shutil (conditional)
+missing module named resource - imported by posix (top-level), test.support (optional)
+missing module named pyimod03_importers - imported by C:\Users\Sambit\anaconda3\envs\pyinstallerenv\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py (top-level)
+missing module named _uuid - imported by uuid (optional)
+missing module named netbios - imported by uuid (delayed)
+missing module named win32wnet - imported by uuid (delayed)
+missing module named __builtin__ - imported by pkg_resources._vendor.pyparsing (conditional)
+missing module named ordereddict - imported by pkg_resources._vendor.pyparsing (optional)
+missing module named _manylinux - imported by pkg_resources._vendor.packaging.tags (delayed, optional)
+missing module named 'win32com.shell' - imported by pkg_resources._vendor.appdirs (conditional, optional)
+missing module named 'com.sun' - imported by pkg_resources._vendor.appdirs (delayed, conditional, optional)
+missing module named win32api - imported by pkg_resources._vendor.appdirs (delayed, conditional, optional)
+missing module named win32com - imported by pkg_resources._vendor.appdirs (delayed)
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.markers (top-level), pkg_resources._vendor.packaging.requirements (top-level)
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named pkg_resources.extern.appdirs - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named cPickle - imported by sqlalchemy.util.compat (conditional, optional), sqlalchemy.testing.util (delayed, conditional, optional)
+missing module named copy_reg - imported by cStringIO (top-level), cPickle (top-level)
+missing module named urlparse - imported by sqlalchemy.util.compat (conditional)
+missing module named cStringIO - imported by sqlalchemy.util.compat (conditional), cPickle (top-level)
+missing module named StringIO - imported by sqlalchemy.util.compat (conditional), PyInstaller.lib.modulegraph._compat (conditional), PyInstaller.lib.modulegraph.zipio (conditional)
+missing module named ConfigParser - imported by sqlalchemy.util.compat (conditional)
+missing module named _dummy_threading - imported by dummy_threading (optional)
+missing module named Sybase - imported by sqlalchemy.dialects.sybase.pysybase (delayed)
+missing module named pysqlcipher3 - imported by sqlalchemy.dialects.sqlite.pysqlcipher (delayed, optional)
+missing module named pysqlcipher - imported by sqlalchemy.dialects.sqlite.pysqlcipher (delayed, optional)
+missing module named 'com.ziclix' - imported by sqlalchemy.dialects.oracle.zxjdbc (delayed), sqlalchemy.dialects.postgresql.zxjdbc (delayed)
+missing module named com - imported by sqlalchemy.connectors.zxJDBC (delayed)
+missing module named postgresql - imported by sqlalchemy.dialects.postgresql.pypostgresql (delayed)
+missing module named pgdb - imported by sqlalchemy.dialects.postgresql.pygresql (delayed)
+missing module named 'java.sql' - imported by sqlalchemy.dialects.oracle.zxjdbc (delayed)
+missing module named cx_Oracle - imported by sqlalchemy.dialects.oracle.cx_oracle (delayed)
+missing module named 'mysql.connector' - imported by sqlalchemy.dialects.mysql.mysqlconnector (delayed, conditional, optional)
+missing module named mysql - imported by sqlalchemy.dialects.mysql.mysqlconnector (delayed)
+missing module named 'google.storage' - imported by sqlalchemy.dialects.mysql.gaerdbms (delayed, conditional)
+missing module named 'google.appengine' - imported by sqlalchemy.dialects.mysql.gaerdbms (delayed, conditional)
+missing module named google - imported by sqlalchemy.dialects.mysql.gaerdbms (delayed)
+missing module named 'mx.ODBC' - imported by sqlalchemy.connectors.mxodbc (delayed, conditional)
+missing module named mx - imported by sqlalchemy.connectors.mxodbc (delayed, conditional)
+missing module named adodbapi - imported by sqlalchemy.dialects.mssql.adodbapi (delayed)
+missing module named psycopg2 - imported by sqlalchemy.dialects.postgresql.psycopg2 (delayed), sqlalchemy (top-level)
+missing module named pysqlite2 - imported by sqlalchemy.dialects.sqlite.pysqlite (delayed, conditional, optional), sqlalchemy (top-level)
