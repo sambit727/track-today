@@ -19,8 +19,6 @@ pyz = PYZ(a.pure, a.zipped_data,
              cipher=block_cipher)
 exe = EXE(pyz,
           a.scripts,
-	  Tree('C:\Users\Sambit\Desktop\Diary App\423-4233331_sparkle-clipart-emoji-transparent-background-sparkle-emoji-png-removebg-preview'),
-          Tree('C:\Users\Sambit\Desktop\Diary App\logo.png'),
           a.binaries,
           a.zipfiles,
           a.datas,

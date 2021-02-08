@@ -51,6 +51,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         if self.entry:
             self.loadTitle()
             self.loadEntry()
+        else:
+            self.entry = Entry(date=current_date)
+            session.add(self.entry)
+        self.textEdit_2.textChanged.connect(self.saveTitle)
+        self.textEdit.textChanged.connect(self.saveEntry)
+
 
     def checkEntry(self):
         '''Search for date in database, if found/not found, load accordingly
