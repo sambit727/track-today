@@ -1,7 +1,7 @@
 # track-today
 This is a simple diary app - click on the calendar dates to store diary entries. Entries will be stored in a local database on your hard drive, others will not be able to see it. App is still in testing stage, do not rely on it.
 
-![Image of App](https://github.com/sambit727/track-today/Preview.png)
+![Image of App](https://github.com/sambit727/track-today/blob/main/Preview.png?raw=true)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
