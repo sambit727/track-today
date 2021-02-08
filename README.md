@@ -8,9 +8,9 @@ This is a simple diary app - click on the calendar dates to store diary entries.
 
 Since TrackToday.exe is a shortcut to the main file, you can locate it anywhere e.g. on your Desktop
 
-Please feel free to suggest changes or report bugs
+Please feel free to suggest changes, report bugs, or even ideas for other features. My gf just recommended me to allow for customizable colour schemes so I'll be trying that next. Thank you :)
 
 **CURRENT BUGS**
-1. the first entry you type after the very first start up may disappear. This is probably because the database file was still being created.
+1. None so far
 
 
